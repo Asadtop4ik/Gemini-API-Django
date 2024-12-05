@@ -1,7 +1,3 @@
-Here's an awesome README for your project, "Gemini API Django":
-
----
-
 # Gemini API Django
 
 An API for generating responses using the Google Generative AI Gemini model.
@@ -75,14 +71,14 @@ Gemini API Django is a robust API designed to leverage the power of Google's Gen
 
 ## Usage
 
-- Access the API documentation and test the endpoint via Swagger UI at `http://localhost:8000/swagger/`.
+- Access the API documentation and test the endpoint via Swagger UI at `http://localhost:8000`.
 
 ## Environment Variables
 
 Create a `.env` file in your project root with the following content:
 
 ```ini
-SECRET_KEY='django-insecure-bbblslhjs^(*bc(=dfs4eptkzogp%dm+44+-a0jrc_sqtg_o40'
+SECRET_KEY=your_secret_key
 DEBUG=True
 GEMINI_API_KEY=your_gemini_api_key_here
 ALLOWED_HOSTS=localhost,127.0.0.1
@@ -95,5 +91,3 @@ Replace `your_gemini_api_key_here` with your actual Gemini API key.
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
-
-Feel free to customize this README further to suit your project's needs!
